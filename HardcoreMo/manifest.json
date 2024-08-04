@@ -1,0 +1,40 @@
+//bridge-file-version: #0
+{
+	"format_version": 2,
+	"header": {
+		"name": "Hardcore Mode §gUltimate! §r[RP]",
+		"description": "Hardcore Mode §gUltimate §raddon made for the Bedrock Edition of Minecraft - One life only, so be careful! Use §e/function hm-help§r for how to use information! \nMade by §cjesser101",
+		"uuid": "22534574-e0e2-4bd0-8d59-a04528c38aeb",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			13,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "d318fd97-c2d1-4813-9a40-7c38698d65b6",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "6560654f-65b2-433c-9096-4e2abb9d73e2",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}
