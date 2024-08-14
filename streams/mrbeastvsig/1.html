@@ -957,9 +957,9 @@ setInterval(() => {
                 document.getElementById("image2").src = `https://livecounts.xyz${data2.results[0].pfp}`;
                                             document.getElementById("name2").textContent = data2.results[0].name;
                                 document.getElementById("username2").textContent = `@${data2.results[0].username}`
-                  document.getElementById("subs2").innerHTML = data.followers;
-                      document.getElementById("views2").innerHTML = data.posts;
-                document.getElementById("gap").innerHTML = data.followers - subs;
+                  document.getElementById("subs2").innerHTML = data.counts[0];
+                      document.getElementById("views2").innerHTML = data.counts[2];
+                document.getElementById("gap").innerHTML = data.counts[0] - subs;
                 });
                 });
                   }, 2000);
@@ -978,8 +978,8 @@ setInterval(() => {
                 document.getElementById("image3").src = `https://livecounts.xyz${data2.results[0].pfp}`;
                                         document.getElementById("name3").textContent = data2.results[0].name;
                             document.getElementById("username3").textContent = `@${data2.results[0].username}`
-              document.getElementById("subs5").innerHTML = data.followers;
-            document.getElementById("gap2").innerHTML = data.followers - subs;
+              document.getElementById("subs5").innerHTML = data.counts[0];
+            document.getElementById("gap2").innerHTML = data.counts[0] - subs;
             });
         });
               }, 2000);
@@ -998,8 +998,8 @@ setInterval(() => {
                 document.getElementById("image4").src = `https://livecounts.xyz${data2.results[0].pfp}`;
                                         document.getElementById("name4").textContent = data2.results[0].name;
                             document.getElementById("username4").textContent = `@${data2.results[0].username}`
-              document.getElementById("subs6").innerHTML = data.followers;
-            document.getElementById("gap3").innerHTML = data.followers - subs;
+              document.getElementById("subs6").innerHTML = data.counts[0];
+            document.getElementById("gap3").innerHTML = data.counts[0] - subs;
             });
         });
               }, 2000);
@@ -1018,8 +1018,8 @@ setInterval(() => {
                 document.getElementById("image5").src = `https://livecounts.xyz${data2.results[0].pfp}`;
                                         document.getElementById("name5").textContent = data2.results[0].name;
                             document.getElementById("username5").textContent = `@${data2.results[0].username}`
-              document.getElementById("subs7").innerHTML = data.followers;
-                  document.getElementById("gap4").innerHTML = data.followers - subs;
+              document.getElementById("subs7").innerHTML = data.counts[0];
+                  document.getElementById("gap4").innerHTML = data.counts[0] - subs;
             });
         });
               }, 2000);
